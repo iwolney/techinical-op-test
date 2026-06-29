@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Books\Queries\" />
+    <Folder Include="Features\Loans\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechnicalTestOpea.Contracts\TechnicalTestOpea.Contracts.csproj" />
+    <ProjectReference Include="..\TechnicalTestOpea.Core.Domain\TechnicalTestOpea.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

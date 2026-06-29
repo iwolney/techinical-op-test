@@ -1,0 +1,6 @@
+@TechnicalTestOpea.Ports.OperationAPI_HostAddress = http://localhost:5177
+
+GET {{TechnicalTestOpea.Ports.OperationAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

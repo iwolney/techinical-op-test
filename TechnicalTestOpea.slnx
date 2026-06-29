@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="DECISIONS.md" />
+    <File Path="docker-compose.yml" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/adapters/">
+    <Project Path="src/adapters/TechnicalTestOpea.Adapters.Infraestructure.Messaging/TechnicalTestOpea.Adapters.Infraestructure.Messaging.csproj" />
+    <Project Path="src/adapters/TechnicalTestOpea.Adapters.Infraestructure.NoSQL/TechnicalTestOpea.Adapters.Infraestructure.NoSQL.csproj" />
+    <Project Path="src/adapters/TechnicalTestOpea.Adapters.Infraestructure.RelationalDataBase/TechnicalTestOpea.Adapters.Infraestructure.RelationalDataBase.csproj" />
+  </Folder>
+  <Folder Name="/src/core/">
+    <Project Path="src/core/TechnicalTestOpea.Contracts/TechnicalTestOpea.Contracts.csproj" Id="40f723aa-9df4-44fa-b038-24a2b25498a5" />
+    <Project Path="src/core/TechnicalTestOpea.Core.Application/TechnicalTestOpea.Core.Application.csproj" />
+    <Project Path="src/core/TechnicalTestOpea.Core.Domain/TechnicalTestOpea.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/ports/">
+    <Project Path="src/ports/TechnicalTestOpea.Ports.DataReplicationConsumer/TechnicalTestOpea.Ports.DataReplicationConsumer.csproj" />
+    <Project Path="src/ports/TechnicalTestOpea.Ports.OperationAPI/TechnicalTestOpea.Ports.OperationAPI.csproj" />
+  </Folder>
+  <Folder Name="/src/tests/">
+    <Project Path="src/tests/TechnicalTestOpea.Tests.Application/TechnicalTestOpea.Tests.Application.csproj" Id="172a6b7c-779f-492f-81b9-afbda49198ea" />
+    <Project Path="src/tests/TechnicalTestOpea.Tests.Domain/TechnicalTestOpea.Tests.Domain.csproj" Id="65735074-ab45-440a-bad7-383a82ba5dae" />
+  </Folder>
+</Solution>
