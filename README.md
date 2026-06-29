@@ -1,4 +1,4 @@
-# Technical Test Opea - Library Management
+# CQRS - SQL SErver e MongoDB
 
 Backend em .NET 10 para gestão de biblioteca comunitária.
 
